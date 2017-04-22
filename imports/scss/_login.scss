@@ -1,0 +1,58 @@
+.box-view {
+    align-items: center;
+    background: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    min-height: 350px;
+}
+
+.login {
+    background-color: white;
+    padding: 2.4rem;
+    text-align: center;
+    width: 20rem;
+
+    h1 {
+        font-weight: 300;
+        font-size: 1.8rem;
+        padding-bottom: 10px;
+        display: block;
+        font-weight: bold;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    p,a{
+      font-family: Helvetica, Arial, sans-serif;
+      padding:10px 0px;
+    }
+}
+
+.boxed-view__form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px!important;
+
+    input {
+        -webkit-appearance: textfield;
+        background-color: white;
+        -webkit-rtl-ordering: logical;
+        user-select: text;
+        cursor: auto;
+        border-width: 2px;
+        border-style: inset;
+        border-color: initial;
+        border-image: initial;
+        margin-bottom: 1.3rem;
+        box-shadow: none;
+        border: 1px solid #ddd;
+        padding: 0.5rem 0.7rem;
+    }
+
+    .btn {
+        padding: 0.5rem 0.7rem;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0.5rem 0.7rem;
+    }
+}
