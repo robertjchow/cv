@@ -34,7 +34,8 @@ export default class ESignup extends React.Component {
             <div className="box-view">
                 <div className="login">
                     <h1>Recruiter</h1>
-                    <form className="boxed-view__form">
+                    {this.state.error ? <p>{this.state.error}</p> : undefined}
+                    <form onSubmit={this.onSubmit.bind(this)} noValidate className="boxed-view__form">
                         <div className="name">
                             <input type="text" ref="fname" name="fname" placeholder="First Name"/>
                             <input type="text" ref="lname" name="lname" placeholder="Last Name"/>
